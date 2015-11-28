@@ -2,7 +2,7 @@ Package.describe({
   name: 'brundage:connection-status',
   version: '0.0.1',
   summary: 'Just a little connection status package',
-  git: '',
+  git: 'https://github.com/brundage/meteor-connection-status.git',
 });
 
 Package.onUse(function(api) {
