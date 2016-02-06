@@ -1,6 +1,10 @@
-Template.connectionStatus.status = function() {
-  if( ! Meteor.status().connected )
-    return Meteor.status().status;
-};
+Template.connectionStatus.helpers = {
 
-Template.connectionStatus.connected = function() { return Meteor.status().connected; };
+  connected: function() { return Meteor.status().connected; },
+
+  status: function() {
+    if( ! Meteor.status().connected )
+      return Meteor.status().status;
+    }
+
+};
