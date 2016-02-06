@@ -1,6 +1,6 @@
 Package.describe({
   name: 'brundage:connection-status',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Just a little connection status package',
   git: 'https://github.com/brundage/meteor-connection-status.git',
   documentation: null
