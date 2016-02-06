@@ -9,9 +9,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use(['templating'], 'client', 'ecmascript');
-  api.addFiles( [ 'connectionStatus.css',
-                   'connectionStatus.html',
-                   'connectionStatus.js' ],
+  api.addFiles( [ 'connectionStatus.html',
+                  'connectionStatus.js' ],
                  'client');
 
 });
